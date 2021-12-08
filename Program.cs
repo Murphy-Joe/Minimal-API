@@ -16,11 +16,11 @@ if (app.Environment.IsDevelopment())
 
 app.MapGet("/", async () =>
 {
-    await Task.Delay(3000);
+    await Task.Delay(1000);
     return new OnCallDeveloperResponse
     {
-        OnCallDeveloperEmail = "sue@aol.com",
-        OnCallDeveloperName = "Sioxsie Sue"
+        OnCallDeveloperEmail = "warren@music.com",
+        OnCallDeveloperName = "Warren Ellis"
     };
 });
 
